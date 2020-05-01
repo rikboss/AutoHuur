@@ -1,9 +1,20 @@
+package Domain;
+
 public class AutoHuur implements Contract {
+    private int ID;
     private int aantalDagen;
     private Klant huurder;
     private Auto gehuurdeAuto;
 
     public AutoHuur() {
+    }
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
     }
 
     public void setAantalDagen(int aD) {

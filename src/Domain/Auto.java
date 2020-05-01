@@ -1,3 +1,5 @@
+package Domain;
+
 public class Auto {
 
     private String type;

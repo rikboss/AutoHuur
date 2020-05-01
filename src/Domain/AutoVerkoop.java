@@ -1,3 +1,5 @@
+package Domain;
+
 public class AutoVerkoop implements Contract{
     @Override
     public double totaalPrijs() {
